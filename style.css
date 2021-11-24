@@ -1,0 +1,167 @@
+body{
+    background-color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.iphone{
+    width: 300px;
+    height: 470px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+
+#line{
+    width: 100px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#camera{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(27, 108, 114);
+    border-radius: 100px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.screen{
+    width: 250px;
+    height: 370px;
+    background-image: url("https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+#click{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 100px;
+    position: absolute;
+    margin-left: 122px;
+    margin-top: 411px;
+    cursor: pointer;
+}
+#click:hover{
+    background-color: blue;
+}
+#time{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+#date{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 86px;
+    margin-top: 60px;
+}
+
+img{
+    width: 60px;
+    margin: 5px;
+    padding: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+#titles{
+    display: none;
+}
+#video-title{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    margin-left: 13px;
+    margin-top: -176px;
+}
+#music-title{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    margin-left: 98px;
+    margin-top: -176px;
+}
+#clock-title{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    margin-left: 177px;
+    margin-top: -176px;
+}
+#weather-title{
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    margin-left: 6px;
+    margin-top: -95px;
+}
+#game-title{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    margin-left: 95px;
+    margin-top: -97px;
+}
+#camera-title{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    margin-left: 166px;
+    margin-top: -97px;
+}
+#settings-title{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 6px;
+    margin-top: -10px;
+}
+#sololearn-title{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -10px;
+}
+#linkedin-title{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 173px;
+    margin-top: -10px;
+}
+
+button { 
+transition: all .5s ease; 
+color: #fff; 
+border: 3px solid white; 
+font-family:'Montserrat', sans-serif; text-transform: uppercase; 
+text-align: center;
+ line-height: 1; 
+ font-size: 17px;
+  background-color : transparent;
+   padding: 10px;
+   margin-left: 180px;
+   margin-top:50px;
+    outline: none;
+     border-radius: 4px;
+     
+      } 
+      button:hover { 
+      color: #001F3F; 
+      background-color: #fff; 
+      }
